@@ -93,6 +93,7 @@
       types:
         Blunt: 25
   - type: Damageable
+  - type: Injurable
     damageContainer: Inorganic
   - type: Destructible
     thresholds:
@@ -248,6 +249,7 @@
       Taco: Cherry
       Burger: Cherry
   - type: Damageable
+  - type: Injurable
     damageContainer: Inorganic
   - type: Destructible
     thresholds:

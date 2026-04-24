@@ -446,7 +446,6 @@
     spawned:
     - id: FoodMeatSlime
   - type: Damageable
-    damageContainer: Biological
     damageModifierSet: Cockroach
   - type: Tag
     tags:
@@ -591,7 +590,6 @@
     weightlessFriction: 1
     baseWeightlessModifier: 1
   - type: Damageable
-    damageContainer: Biological
     damageModifierSet: Moth
   - type: Bloodstream
     bloodReferenceSolution:
@@ -2177,7 +2175,6 @@
     - id: SheetUranium1
       amount: 1
   - type: Damageable
-    damageContainer: Biological
     damageModifierSet: Zombie
 
 - type: entity
@@ -2232,7 +2229,6 @@
       - ReagentId: Blood
         Quantity: 150
   - type: Damageable
-    damageContainer: Biological
     damageModifierSet: Scale
   - type: Tag
     tags:
@@ -2649,7 +2645,6 @@
       - ReagentId: Blood
         Quantity: 50
   - type: Damageable
-    damageContainer: Biological
     damageModifierSet: Scale
   - type: LanguageSpeaker # Einstein Engines - Language
     speaks:
@@ -3245,8 +3240,9 @@
       - ReagentId: DemonsBlood
         Quantity: 150
   - type: Damageable
-    damageContainer: BiologicalMetaphysical
     damageModifierSet: Infernal
+  - type: Injurable
+    damageContainer: BiologicalMetaphysical
   - type: Temperature
     currentTemperature: 310.15
     specificHeat: 42

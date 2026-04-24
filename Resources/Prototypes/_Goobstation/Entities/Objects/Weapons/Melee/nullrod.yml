@@ -367,6 +367,7 @@
     sprintModifier: 0.75
   - type: HeldSpeedModifier
   - type: Damageable
+  - type: Injurable
     damageContainer: Shield
   - type: MultiHandedItem
   - type: DivineIntervention # Bulwark blocks magic from bagslot

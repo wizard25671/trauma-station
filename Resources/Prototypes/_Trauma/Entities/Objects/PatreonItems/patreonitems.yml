@@ -292,6 +292,7 @@
     spawned:
     - id: FoodMeatSlime
   - type: Damageable
+  - type: Injurable
     damageContainer: Biological
   - type: Tag
     tags:

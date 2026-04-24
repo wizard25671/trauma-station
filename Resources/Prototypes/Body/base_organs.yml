@@ -22,6 +22,7 @@
   components:
   # <Shitmed>
   - type: Damageable
+  - type: Injurable
     damageContainer: Biological
   - type: Destructible # applies to both organs and parts, if your heart gets 400 damage it should probably go splat anyway
     thresholds:

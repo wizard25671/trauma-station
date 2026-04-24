@@ -67,6 +67,7 @@
         0: Alive
         42: Dead # The Answer to the Ultimate Question of Life, the Universe, and Everything
     - type: Damageable
+    - type: Injurable
       damageContainer: SiliconRadiation
     - type: StatusEffects
       allowed:

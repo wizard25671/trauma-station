@@ -1,12 +1,14 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
-namespace Content.Trauma.Server.Silicon.BlindHealing;
+using Content.Shared.Whitelist;
 
-[RegisterComponent]
+namespace Content.Trauma.Shared.Silicon.BlindHealing;
+
+[RegisterComponent, NetworkedComponent]
 public sealed partial class BlindHealingComponent : Component
 {
     [DataField]
-    public int DoAfterDelay = 3;
+    public TimeSpan DoAfterDelay = TimeSpan.FromSeconds(3);
 
     /// <summary>
     ///     A multiplier that will be applied to the above if an entity is repairing themselves.
@@ -20,6 +22,9 @@ public sealed partial class BlindHealingComponent : Component
     [DataField]
     public bool AllowSelfHeal = true;
 
+    /// <summary>
+    /// Whitelist entities must match
+    /// </summary>
     [DataField(required: true)]
-    public List<string> DamageContainers;
+    public EntityWhitelist Whitelist = default!;
 }

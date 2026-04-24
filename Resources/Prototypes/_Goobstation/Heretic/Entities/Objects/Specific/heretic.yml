@@ -344,6 +344,7 @@
     damageMultiplier: 1.5
   - type: CrackedLanternSummon
   - type: Damageable
+  - type: Injurable
     damageContainer: Biological
   - type: AlwaysTakeHoly
   - type: Sprite

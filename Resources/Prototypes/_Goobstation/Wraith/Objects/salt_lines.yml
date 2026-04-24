@@ -33,6 +33,7 @@
   - type: SaltLineVisualizer
     state: salt_
   - type: Damageable
+  - type: Injurable
     damageContainer: StructuralInorganic
   - type: Destructible
     thresholds:

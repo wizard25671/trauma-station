@@ -65,8 +65,9 @@
         layer:
           - MobLayer
   - type: Damageable #Reduced blunt and heat damage according to code.
-    damageContainer: Inorganic
     damageModifierSet: SiliconProtected
+  - type: Injurable
+    damageContainer: Inorganic
   - type: NoSlip
   - type: Pullable
   - type: ZombieImmune

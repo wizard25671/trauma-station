@@ -71,6 +71,7 @@
   - type: Item
     size: Normal
   - type: Damageable
+  - type: Injurable
     damageContainer: Biological
   - type: DamageOnHighSpeedImpact
     minimumSpeed: 0.1

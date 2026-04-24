@@ -33,8 +33,9 @@
   - type: PlacementReplacement
     key: walls
   - type: Damageable
-    damageContainer: StructuralInorganic
     damageModifierSet: Walls # Trauma, was StructuralMetallic
+  - type: Injurable
+    damageContainer: StructuralInorganic
   - type: Physics
     bodyType: Static
   - type: Fixtures
@@ -548,8 +549,9 @@
       penetrateDamage: 1000
       damagePenalty: 0.8
     - type: Damageable
-      damageContainer: StructuralInorganic
       damageModifierSet: StructuralMetallicStrong
+    - type: Injurable
+      damageContainer: StructuralInorganic
     - type: RadiationBlocker
       resistance: 10
 
@@ -592,8 +594,9 @@
     sprite: Structures/Walls/plastitanium_diagonal.rsi
     state: state0
   - type: Damageable
-    damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallicStrong
+  - type: Injurable
+    damageContainer: StructuralInorganic
   - type: RadiationBlocker
     resistance: 10
 
@@ -641,8 +644,9 @@
     graph: Girder
     node: reinforcedWall
   - type: Damageable
-    damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallicStrong
+  - type: Injurable
+    damageContainer: StructuralInorganic
   - type: Destructible
     thresholds:
     - trigger:
@@ -774,8 +778,9 @@
     sprite: Structures/Walls/reinforced_diagonal.rsi
     state: state0
   - type: Damageable
-    damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallicStrong
+  - type: Injurable
+    damageContainer: StructuralInorganic
   - type: Destructible
     thresholds:
     - trigger:
@@ -814,8 +819,9 @@
   - type: Icon
     sprite: Structures/Walls/riveted.rsi
   - type: Damageable
-    damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallicStrong
+  - type: Injurable
+    damageContainer: StructuralInorganic
   - type: Destructible
     thresholds:
     - trigger:
@@ -957,10 +963,9 @@
         - WallLayer
         density: 2000
   - type: Damageable
+    damageModifierSet: StructuralMetallic # Trauma - was StructuralMetallicStrong
+  - type: Injurable
     damageContainer: StructuralInorganic
-    damageModifierSet: StructuralMetallic
-  - type: Physics
-    bodyType: Static
   - type: Destructible
     thresholds:
     - trigger:
@@ -1006,8 +1011,9 @@
     convertTo: WallCosmicCult
   # </Trauma>
   - type: Damageable
-    damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallicStrong
+  - type: Injurable
+    damageContainer: StructuralInorganic
   - type: Destructible
     thresholds:
     - trigger:
@@ -1165,6 +1171,11 @@
   id: WallSolidRust
   suffix: rusted
   components:
+  # <Trauma>
+  - type: RustedWall
+  - type: CosmicCorruptible
+    convertTo: WallCosmicCult
+  # </Trauma>
   - type: Sprite
     sprite: Structures/Walls/solid_rust.rsi
   - type: Icon
@@ -1176,7 +1187,6 @@
   - type: IconSmooth
     key: walls
     base: solid
-  - type: RustedWall # Goobstation
   - type: Destructible
     thresholds:
     - trigger:
@@ -1199,8 +1209,6 @@
         node: girder
       - !type:DoActsBehavior
         acts: ["Destruction"]
-  - type: CosmicCorruptible # DeltaV - Cosmic Cult
-    convertTo: WallCosmicCult
 
 - type: entity
   parent: WallPlastitanium
@@ -1443,8 +1451,9 @@
     sprite: Structures/Walls/mining_diagonal.rsi
     state: state0
   - type: Damageable
-    damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallicStrong
+  - type: Injurable
+    damageContainer: StructuralInorganic
   - type: Destructible
     thresholds:
     - trigger:
@@ -1752,8 +1761,9 @@
     node: cardwall
     deconstructionTarget: start
   - type: Damageable
-    damageContainer: StructuralInorganic
     damageModifierSet: Card
+  - type: Injurable
+    damageContainer: StructuralInorganic
   - type: Physics
     bodyType: Static
   - type: Fixtures

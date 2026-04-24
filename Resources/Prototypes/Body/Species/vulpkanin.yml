@@ -218,7 +218,7 @@
   suffix: vulpkanin
   # <Shitmed>
   components:
-  - type: Damageable
+  - type: Injurable
     damageContainer: Vulpkanin
   # </Shitmed>
 

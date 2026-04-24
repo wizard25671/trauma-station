@@ -67,6 +67,7 @@
       Torso: OrganTorsoGhoul
   - type: AlwaysTakeHoly
   - type: Damageable
+  - type: Injurable
     damageContainer: Biological
   - type: Clickable
   - type: InteractionOutline

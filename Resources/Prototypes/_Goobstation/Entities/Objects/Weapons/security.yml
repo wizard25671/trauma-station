@@ -102,8 +102,9 @@
     sound:
       path: /Audio/Effects/tesla.ogg
   - type: Damageable
-    damageContainer: OnlyStructural
     damageModifierSet: StructuralImmunity # So only the demolishing round can even damage it
+  - type: Injurable
+    damageContainer: OnlyStructural
   - type: Destructible
     thresholds:
     - trigger:

@@ -99,6 +99,7 @@
       types:
         Piercing: 8 # Trauma - was 4
   - type: Damageable
+  - type: Injurable
     damageContainer: Inorganic
   - type: Destructible
     thresholds:

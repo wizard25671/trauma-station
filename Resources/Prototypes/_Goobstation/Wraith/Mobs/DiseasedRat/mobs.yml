@@ -99,8 +99,9 @@
     baseWalkSpeed: 3
     baseSprintSpeed: 6
   - type: Damageable
-    damageContainer: Biological
     damageModifierSet: Diona # Weak to heat
+  - type: Injurable
+    damageContainer: Biological
   - type: MobThresholds
     thresholds:
       0: Alive
@@ -261,8 +262,9 @@
     baseWalkSpeed: 3
     baseSprintSpeed: 6
   - type: Damageable
-    damageContainer: Biological
     damageModifierSet: Diona # Weak to heat
+  - type: Injurable
+    damageContainer: Biological
   - type: Destructible
     thresholds:
       - trigger:

@@ -135,8 +135,9 @@
     - NanoTrasen
   - type: StandingState
   - type: Damageable
-    damageContainer: SiliconRadiation
     damageModifierSet: IPC
+  - type: Injurable
+    damageContainer: SiliconRadiation
   - type: MobState
     allowedStates:
     - Alive
@@ -263,9 +264,10 @@
   components:
   - type: Inorganic
   - type: Damageable
-    damageContainer: SiliconRadiation
     damageModifierSet: IPC
     bleedingOverlay: null
+  - type: Injurable
+    damageContainer: SiliconRadiation
 
 - type: entity
   abstract: true
