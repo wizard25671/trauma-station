@@ -1,11 +1,3 @@
-// SPDX-FileCopyrightText: 2023 ElectroJr <leonsfriedrich@gmail.com>
-// SPDX-FileCopyrightText: 2023 Emisse <99158783+Emisse@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 LordCarve <27449516+LordCarve@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 TemporalOroboros <TemporalOroboros@gmail.com>
-// SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-//
-// SPDX-License-Identifier: MIT
-
 using Content.Server.Fluids.EntitySystems;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.EntitySystems;
@@ -43,19 +35,19 @@ public sealed class AbsorbentTest : GameTest
   components:
   - type: Absorbent
     useAbsorberSolution: true
-  - type: SolutionContainerManager
-    solutions:
-      absorbed:
-        maxVol: 100
+  - type: Solution
+    id: absorbed
+    solution:
+      maxVol: 100
 
 - type: entity
   name: {RefillableDummyId}
   id: {RefillableDummyId}
   components:
-  - type: SolutionContainerManager
-    solutions:
-      refillable:
-        maxVol: 200
+  - type: Solution
+    id: refillable
+    solution:
+      maxVol: 200
   - type: RefillableSolution
     solution: refillable
 
@@ -63,10 +55,10 @@ public sealed class AbsorbentTest : GameTest
   name: {SmallRefillableDummyId}
   id: {SmallRefillableDummyId}
   components:
-  - type: SolutionContainerManager
-    solutions:
-      refillable:
-        maxVol: 20
+  - type: Solution
+    id: refillable
+    solution:
+      maxVol: 20
   - type: RefillableSolution
     solution: refillable
 ";

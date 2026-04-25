@@ -37,7 +37,9 @@
         Slash: 4
         Structural: 4
   - type: Item
-    size: Normal
+    size: Large
+    shape:
+    - 0,0,2,2
     sprite: Objects/Weapons/Melee/chainsaw.rsi
   # <Trauma>
     shape:
@@ -48,15 +50,6 @@
   # </Trauma>
 
   - type: DisarmMalus
-  - type: RefillableSolution
-    solution: Welder
-  - type: SolutionContainerManager
-    solutions:
-      Welder:
-        reagents:
-        - ReagentId: WeldingFuel
-          Quantity: 300
-        maxVol: 300
   - type: UseDelay
     delay: 1
   - type: BoneSaw # Shitmed

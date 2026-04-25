@@ -291,7 +291,7 @@ public sealed partial class ChangelingSystem
         if (!TryComp<EdibleComponent>(target, out var edible))
             return;
 
-        if (!TryComp<SolutionContainerManagerComponent>(target, out var solMan))
+        if (!TryComp<SolutionManagerComponent>(target, out var solMan))
             return;
 
         var totalFood = FixedPoint2.New(0);
@@ -334,7 +334,7 @@ public sealed partial class ChangelingSystem
     {
         if (args.Cancelled ||
             args.Target is not {} target ||
-            !TryComp<SolutionContainerManagerComponent>(target, out var solMan))
+            !TryComp<SolutionManagerComponent>(target, out var solMan))
             return;
 
         var totalFood = FixedPoint2.New(0);

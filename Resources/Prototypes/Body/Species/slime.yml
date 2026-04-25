@@ -152,7 +152,7 @@
     bloodReferenceSolution: # TODO Color slime blood based on their slime color or smth
       reagents:
       - ReagentId: Slime
-        Quantity: 300
+        Quantity: 600
   - type: Barotrauma
     damage:
       types:
@@ -292,16 +292,9 @@
   - type: ChildOrgan
     parents: [ Torso ] # allow it to be in torsos instead of head
   # </Shitmed>
-  - type: SolutionContainerManager
+  - type: SolutionManager
     solutions:
-      stomach:
-        maxVol: 50.0
-      # <Shitmed>
-      food:
-        reagents:
-        - ReagentId: Slime
-          Quantity: 15
-      # </Shitmed>
+    - SolutionStomach
   - type: Stomach
   - type: Metabolizer
     maxReagents: 6

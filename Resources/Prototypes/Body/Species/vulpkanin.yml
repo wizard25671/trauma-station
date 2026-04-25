@@ -205,7 +205,7 @@
     bloodReferenceSolution:
       reagents:
       - ReagentId: Blood # Trauma - no piss fetish please
-        Quantity: 300
+        Quantity: 600
   - type: CreamPied
     sprite:
       sprite: Effects/creampie.rsi

@@ -1,9 +1,16 @@
 - type: entity
-  parent: BaseItem
+  parent: [SolutionMopLarge, BaseItem]
   name: mop
   id: MopItem
   description: A mop that can't be stopped, viscera cleanup detail awaits.
   components:
+  # <Trauma>
+  - type: PhysicalComposition
+    materialComposition:
+      Plastic: 25
+  - type: FloorCleaner
+    radius: 1.5
+  # </Trauma>
   - type: Sprite
     sprite: Objects/Specific/Janitorial/mop.rsi
     layers:
@@ -39,15 +46,8 @@
     sprite: Objects/Specific/Janitorial/mop.rsi
   - type: Absorbent
     useAbsorberSolution: true
-  - type: SolutionContainerManager
-    solutions:
-      absorbed:
-        maxVol: 100
   - type: UseDelay
     delay: 0.25
-  - type: PhysicalComposition #Goobstation - Recycle update
-    materialComposition:
-      Plastic: 25
   - type: Tag
     tags:
       - Mop
@@ -57,8 +57,22 @@
     guides:
     - Janitorial
   - type: DnaSubstanceTrace
-  - type: FloorCleaner # Goobstation
-    radius: 1.5
+
+# There's a surprising amount of non-mop mops so we need to define these.
+- type: entity
+  parent: [SolutionMop, SolutionToolSmall]
+  id: SolutionMopSmall
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: [SolutionMop, SolutionToolNormal]
+  id: SolutionMopNormal
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: [SolutionMop, SolutionToolLarge]
+  id: SolutionMopLarge
+  categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: MopItem
@@ -304,9 +318,9 @@
     SpawnMobMoproach: 2
 
 - type: entity
-  parent: BaseItem
-  name: damp rag
+  parent: [SolutionMopSmall, BaseItem]
   id: RagItem
+  name: damp rag
   description: For cleaning up messes, you suppose.
   components:
     - type: Sprite
@@ -340,10 +354,6 @@
     - type: Construction
       graph: Rag
       node: rag
-    - type: SolutionContainerManager
-      solutions:
-        absorbed:
-          maxVol: 30
     - type: UseDelay
       delay: 1.5
     - type: Tag
