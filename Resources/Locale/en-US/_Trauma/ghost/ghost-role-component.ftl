@@ -52,8 +52,11 @@ ghost-role-information-DClass-description = The science team wants to use you fo
 ghost-role-information-facehugger-name = facehugger
 ghost-role-information-facehugger-description = A writhing nightmare. The facehugger clings to its victim's face, forcibly inserting a xenomorph fetus.
 
-ghost-role-ratma-name = Ratma
-ghost-role-ratma-desc = Hunt and kill.
+ghost-role-information-wailing-horse-name = Wailing Horse
+ghost-role-information-wailing-horse-desc = It hurts...Why does it hurt so much?
+
+ghost-role-information-ratma-name = Ratma
+ghost-role-information-ratma-desc = Hunt and kill.
 
 ghost-role-information-breadling-namee = Breadling
 ghost-role-information-BreadLing-desc = Brought to life by a loving baker, enjoy the fickle time you have remaining. You have no knowledge of your coming death unless told.
@@ -76,3 +79,9 @@ ghost-role-information-dwingle-description = Dwingle all over the place.
 
 ghost-role-information-disgustingbackpack-name = Evil backpack
 ghost-role-information-disgustingbackpack-description = Drive your owner completely insane and make him hurt people.
+
+ghost-role-information-pirate-name = Pirate Scooner Crewman
+ghost-role-information-pirate-description = Follow your captain's orders. Loot, plunder, kill.
+
+ghost-role-information-pirate-captain-name = Pirate Scooner Captain
+ghost-role-information-pirate-captain-description = Order your crewmen around. Get rich.
