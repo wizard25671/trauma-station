@@ -8982,3 +8982,10 @@ Entries:
   id: 1022
   time: '2026-05-23T03:59:08.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2749
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed circuit editor ignoring UI scale setting.
+  id: 1023
+  time: '2026-05-23T04:04:51.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2751
