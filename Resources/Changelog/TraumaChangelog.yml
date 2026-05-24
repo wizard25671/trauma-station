@@ -9040,3 +9040,10 @@ Entries:
   id: 1030
   time: '2026-05-24T06:38:25.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2731
+- author: TurboTrackerss14
+  changes:
+  - type: Fix
+    message: Moth guidebook no longer lies about the existence of a "moth dash"
+  id: 1031
+  time: '2026-05-24T20:09:43.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2774
