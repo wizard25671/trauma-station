@@ -9232,3 +9232,14 @@ Entries:
   id: 1050
   time: '2026-05-28T05:45:18.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2850
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: >-
+      Changed chemicals to deal equal damage to every bodypart instead of
+      getting split, so poisons and medicines are now 5x effective usually.
+  - type: Tweak
+    message: Reverted upstream making jugs 2x4, they're still 2x2
+  id: 1051
+  time: '2026-05-28T06:20:59.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2822
