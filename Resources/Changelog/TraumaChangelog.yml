@@ -9225,3 +9225,10 @@ Entries:
   id: 1049
   time: '2026-05-28T05:41:07.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2819
+- author: Hoodsie
+  changes:
+  - type: Fix
+    message: Fixed typos in rules
+  id: 1050
+  time: '2026-05-28T05:45:18.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2850
