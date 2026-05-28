@@ -9243,3 +9243,10 @@ Entries:
   id: 1051
   time: '2026-05-28T06:20:59.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2822
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Red jelly extract now applies to modsuit/hardsuit pieces.
+  id: 1052
+  time: '2026-05-28T06:49:51.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2802
