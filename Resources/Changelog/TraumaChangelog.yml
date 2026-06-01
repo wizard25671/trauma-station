@@ -9451,3 +9451,10 @@ Entries:
   id: 1072
   time: '2026-06-01T10:11:37.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2959
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: Fully predicted clown car interactions.
+  id: 1073
+  time: '2026-06-01T10:33:08.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2963
