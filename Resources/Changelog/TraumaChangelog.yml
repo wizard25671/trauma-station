@@ -9756,3 +9756,10 @@ Entries:
   id: 1105
   time: '2026-06-05T00:17:55.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/3033
+- author: deltanedas
+  changes:
+  - type: Add
+    message: Added 40, 60 and 120u options to the energy chem dispenser.
+  id: 1106
+  time: '2026-06-05T09:17:31.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/3046
