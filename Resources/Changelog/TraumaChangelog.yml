@@ -9873,3 +9873,10 @@ Entries:
   id: 1120
   time: '2026-06-07T12:08:11.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/3090
+- author: TechnicFighter,
+  changes:
+  - type: Add
+    message: Added the Centifiend, a new Medium Demon.
+  id: 1121
+  time: '2026-06-07T12:19:52.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/3068
