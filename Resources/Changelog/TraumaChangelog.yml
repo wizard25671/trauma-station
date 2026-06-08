@@ -9916,3 +9916,10 @@ Entries:
   id: 1124
   time: '2026-06-08T11:47:01.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/3101
+- author: deltanedas
+  changes:
+  - type: Remove
+    message: Removed BSO
+  id: 1125
+  time: '2026-06-08T12:43:33.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/3103
