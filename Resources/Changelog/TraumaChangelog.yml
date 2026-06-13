@@ -10134,3 +10134,10 @@ Entries:
   id: 1147
   time: '2026-06-13T15:17:08.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/3150
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed IPCs not taking ion damage. Set justice to ion.
+  id: 1148
+  time: '2026-06-13T15:29:42.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/3166
