@@ -60,4 +60,3 @@ reagent-desc-reaper-delight = A very potent fertilizer with no limit to its pote
 
 reagent-name-stellarium = stellarium
 reagent-desc-stellarium = An artifically synthesized anti-toxin that is incredibly effective against poisons, Also works very well as a fertilizer to keep your plants alive.
-
