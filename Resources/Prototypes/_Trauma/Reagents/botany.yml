@@ -59,9 +59,9 @@
         damage:
           types:
             Radiation: 4.5
-    plantMetabolism:
-    - !type:PlantAdjustMutationLevel
-      amount: 3
+  plantMetabolism:
+  - !type:PlantAdjustMutationLevel
+    amount: 3
 
 - type: reagent
   id: ReaperDelight
