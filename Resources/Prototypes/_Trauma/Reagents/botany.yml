@@ -68,7 +68,7 @@
   name: reagent-name-reaper-delight
   group: Botanical
   desc: reagent-desc-reaper-delight
-  flavor: sickly
+  flavor: bitter
   color: Black
   physicalDesc: reagent-physical-desc-sickly
   plantMetabolism:
@@ -84,7 +84,7 @@
   name: reagent-name-stellarium
   group: Botanical
   desc: reagent-desc-stellarium
-  flavor: starry
+  flavor: medicine
   color : "#8000FF"
   physicalDesc: reagent-physical-desc-starry
   metabolisms:
